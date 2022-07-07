@@ -1,0 +1,16 @@
+
+body{
+    background-image: none;
+    background-color: crimson;
+    }
+
+#titulo{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
+}
+header{
+    background-color: forestgreen;
+}
+
