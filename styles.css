@@ -1,6 +1,5 @@
 
 body{
-    background-image: none;
     background-color: crimson;
     }
 
@@ -10,7 +9,13 @@ body{
     text-align: center;
     font-size: larger;
 }
-header{
+.header{
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom: 2px solid black;
+    display: block;
+    text-align:center;
     background-color: forestgreen;
 }
 
