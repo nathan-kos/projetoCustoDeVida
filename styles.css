@@ -18,25 +18,14 @@ header{
     color: #5DD9D7;
 }
 footer{
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
     background-color: #0E2A47;
-    padding: 8px;
     color: #5DD9D7;
-    margin-top: 0%;
     border-top: 2px solid black;
   }
-.creditos{
-    display: inline;
-    margin-left: 30%;
-}
-.fundo{
-    display: inline;
-    margin-left: 0%;
-}
-.portifolio{
-    display: inline;
-    margin-left: 34%;
-    color: #5DD9D7;
-}
+
 a{
     color: #5DD9D7;
 }
@@ -46,3 +35,19 @@ a:link {
 a:hover {
     text-decoration: underline;
    }
+h1{
+    text-align: center;
+}
+::placeholder{
+    opacity: 70%;
+}
+form{
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: large;
+    gap: 5px;
+}
