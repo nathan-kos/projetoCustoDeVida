@@ -16,6 +16,7 @@ header{
     text-align:center;
     background-color: #0E2A47;
     color: #5DD9D7;
+    flex-grow: 1;
 }
 footer{
     padding: 3px;
@@ -56,4 +57,16 @@ form{
     width: 100vw;
     height: 87vh;
     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
+    gap: 5px;
+}
+div{
+    display: flex;
+}
+.teste{
+    flex-grow: 1;
+    margin-left: 2px;
 }
