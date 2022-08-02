@@ -70,3 +70,9 @@ div{
     flex-grow: 1;
     margin-left: 2px;
 }
+.links{
+    border-top: 5px;
+}
+.enviar{
+    border-radius: 7px;
+}
